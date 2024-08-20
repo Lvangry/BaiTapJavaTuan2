@@ -9,7 +9,7 @@ package Lap02_02;
  * @author ASUS
  */
 public class Hinhtron {
-    public double bankinh;
+    private double bankinh;
 
     public Hinhtron(double bankinh) {
         this.bankinh = bankinh;

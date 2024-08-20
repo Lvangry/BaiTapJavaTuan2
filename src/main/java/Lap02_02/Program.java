@@ -4,7 +4,8 @@
  */
 package Lap02_02;
 import java.util.Scanner;
-/**
+/**2
+ * 2
  *
  * @author ASUS
  */
@@ -23,8 +24,11 @@ public class Program {
                 System.out.println("Nhap thong tin hinh tru");
         System.out.print("Cho biet chieu cao:");
         double chieucao=sc.nextDouble();
+         System.out.print("Cho biet ban kinh:");
+        double bankinh =sc.nextDouble();
+         
         
-        Hinhtron htru=new Hinhtru(chieucao);
+        Hinhtron htru=new Hinhtru(bankinh,chieucao);
         System.out.println("Ket qua:");
         htru.xuat();
     }

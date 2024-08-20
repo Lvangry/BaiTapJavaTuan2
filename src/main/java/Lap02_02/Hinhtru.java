@@ -11,8 +11,10 @@ package Lap02_02;
 class Hinhtru extends Hinhtron {
     private double chieucao;
 
-    public Hinhtru(double chieucao) {
-        super(chieucao); // Gọi constructor của lớp cha
+    public Hinhtru() {
+        super(1.0); // Gọi constructor của lớp cha
+        chieucao=1.0;
+        
     }
 
     public Hinhtru(double bankinh, double chieucao) {
@@ -32,7 +34,7 @@ class Hinhtru extends Hinhtron {
     public double tinhDienTich() {
         // Ghi đè phương thức tinhDienTich() để tính diện tích hình trụ
         double dienTichDay = super.tinhDienTich();
-        double dienTichXungQuanh = 2 * Math.PI * bankinh * chieucao;
+        double dienTichXungQuanh = super.tinhChuVi() * chieucao;
         return 2 * dienTichDay + dienTichXungQuanh;
     }
 
@@ -42,6 +44,6 @@ class Hinhtru extends Hinhtron {
     
   
     public void xuat(){
-    System.out.println("Hinhtru[chieucao="+chieucao+"The tich:"+tinhTheTich()+"dientich:"+tinhDienTich());
+    System.out.println("Hinhtru[bankinh="+super.getBankinh()+",chieucao:"+chieucao+",The tich:"+tinhTheTich()+",dientich:"+tinhDienTich());
     }
 }
