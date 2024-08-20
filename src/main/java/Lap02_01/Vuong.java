@@ -13,8 +13,7 @@ public class Vuong extends ChuNhat{
     public Vuong(double canh) {
         super(canh,canh);//goi pt constructor cus lop cha
     }
-
-    @Override
+    @Override//ghide
     public void xuat(){
     System.out.println("HV[canh="+super.dai+",chuvie:"+super.getchuvi()+"dientich:"+super.getdientich());
     }
