@@ -9,5 +9,12 @@ package Lap02_01;
  * @author ASUS
  */
 public class Program {
+    public static void main(String[] args) {
+    ChuNhat cn = new ChuNhat(4,3);
+    cn.xuat();
     
+   Vuong hv = new Vuong(3);
+    hv.xuat();
+    
+    }
 }
