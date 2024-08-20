@@ -17,6 +17,7 @@ public class Vuong extends ChuNhat{
     public void xuat(){
     System.out.println("HV[canh="+super.dai+",chuvie:"+super.getchuvi()+"dientich:"+super.getdientich());
     }
+    
 //    public  double canh;
 //
 //    public Vuong(double canh) {
