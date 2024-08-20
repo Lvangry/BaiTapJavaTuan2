@@ -30,6 +30,6 @@ public class Hinhtron {
         return 2 * Math.PI * bankinh;
     }
     public void xuat(){
-        System.out.println("HinhTron[bankinh="+bankinh+"Chuvi:"+tinhChuVi()+",dien tich:"+tinhDienTich());
+        System.out.println("HinhTron[bankinh="+bankinh+",Chuvi:"+tinhChuVi()+",dien tich:"+tinhDienTich());
     }
 }
