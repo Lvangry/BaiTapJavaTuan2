@@ -25,7 +25,7 @@ public class Program {
         System.out.print("Cho biet chieu cao:");
         double chieucao=sc.nextDouble();
          System.out.print("Cho biet ban kinh:");
-        double bankinh =sc.nextDouble();
+        bankinh =sc.nextDouble();
          
         
         Hinhtron htru=new Hinhtru(bankinh,chieucao);
